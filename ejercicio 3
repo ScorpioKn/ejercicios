@@ -1,0 +1,14 @@
+def calcular_longitud(lista_o_cadena):
+    longitud = 0
+    for elemento in lista_o_cadena:
+        longitud += 1
+    return longitud
+
+cadena = "unas chelas!"
+lista = [1, 2, 3, 4, 5]
+
+longitud_cadena = calcular_longitud(cadena)
+longitud_lista = calcular_longitud(lista)
+
+print("Longitud de la cadena:", longitud_cadena)
+print("Longitud de la lista:", longitud_lista)

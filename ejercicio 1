@@ -1,0 +1,19 @@
+def sum(lista):
+    suma = 0
+    for num in lista:
+        suma += num
+    return suma
+
+def multip(lista):
+    producto = 1
+    for num in lista:
+        producto *= num
+    return producto
+
+# Ejemplos de uso
+numeros = [1, 2, 3, 4]
+resultado_suma = sum(numeros)
+resultado_producto = multip(numeros)
+
+print("Suma de la lista:", resultado_suma)
+print("Producto de la lista:", resultado_producto)
